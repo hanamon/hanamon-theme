@@ -1,0 +1,38 @@
+/*
+Theme Name: HanamonT
+Theme URI: https://www.parkhana.com
+Author: Park Hana
+Author URI: https://www.parkhana.com
+Description: 프론트엔드, 웹퍼블리셔 박하나의 워드프레스 웹사이트 테마입니다.
+Version: 1.0
+Tags: 포트폴리오, 개발자, 블로그, 프론트엔드, 웹퍼블리셔
+*/
+
+* { margin:0; padding:0; vertical-align:top; border:0; }
+html,body{ width:100%; height:100%; }
+html{ overflow-y:scroll; }
+html.addScroll { overflow:hidden; }
+body{ font:14px/1; color:#5a5a5a; font-family:'Montserrat'; background:#fff; }
+h1,h2,h3,h4,h5,h6 { color:#5a5a5a; font-weight:400; }
+i,address,em { font-style:normal; }
+ul,ol { list-style:none; }
+table { border-collapse:collapse; }
+tr,td { text-align:center; vertical-align:middle; }
+header,main,footer,section,nav,aside { display:block; }
+
+	a{ text-decoration:none; }
+	a:hover{ text-decoration:none; }
+	.floatclear:after{ content:''; display:block; clear:both; }
+	.hidden{ display:none; }
+	.blind{ display:block; overflow:hidden; text-indent:-10000px; }
+
+	#skip{ z-index:5; position:absolute; top:0; left:0; width:100%; font-size:0; }
+	#skip>li{ position:relative; width:100%; }
+	#skip>li>a{ position:absolute; top:-200px; left:0; display:block; width:100%; font-size:0; padding:0; color:#fff; text-align:center; background:#000; }
+	#skip>li>a:focus{ top:0; font-size:20px; padding:25px 0; }
+
+.wrapper { width:100%; }
+header { background:pink; }
+.wrapper-inner {}
+.wrapper-inner #main {}
+footer { background:pink; }
