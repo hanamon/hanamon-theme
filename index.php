@@ -7,21 +7,21 @@
 	
 get_header();
 
-while( have_posts() ):
-	the_post();
+//while( have_posts() ):
+	//the_post();
 ?>
 
-<a href="<?php echo get_permalink(); ?>">
+<!--<a href="<?php echo get_permalink(); ?>">
 	<h1><?php the_title(); ?></h1>
 </a>
 
 <br />
 
-<?php the_content(); ?>
+<?php //the_content(); ?>
 
-<br /><br />
+<br /><br />-->
 
 <?php
-endwhile;
+//endwhile;
 
-get_footer();
+//get_footer();

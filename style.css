@@ -35,4 +35,4 @@ header,main,footer,section,nav,aside { display:block; }
 header { background:pink; }
 .wrapper-inner {}
 .wrapper-inner #main {}
-footer { background:pink; }
+footer { background:#88c; }
